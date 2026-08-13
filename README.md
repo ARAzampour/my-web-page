@@ -1,8 +1,8 @@
-# Academic homepage
+# my-web-page
 
-A single-page job-market site in the format economics departments actually use: name and contact first, then a short research statement, a featured job market paper, working papers, teaching, and a CV PDF hosted on the site.
+Here you can find the relevant information on my academic background and interests.
 
-Committees skim. This layout keeps the CV, JMP, and email visible without a CMS, JavaScript framework, or academic-theme clutter.
+A single-page job-market site: name and contact first, then a short research statement, a featured job market paper, working papers, teaching, and a CV PDF hosted on the site.
 
 ## Customize
 
@@ -38,13 +38,9 @@ npx --yes serve .
 
 ## Put it on GitHub Pages
 
-1. Create a GitHub repository (a repo named `yourusername.github.io` gives you `https://yourusername.github.io`).
-2. Push this folder to `main`.
-3. On GitHub: **Settings → Pages → Deploy from a branch → `main` / root**.
+1. This repository is `ARAzampour/my-web-page`.
+2. On GitHub: **Settings → Pages → Deploy from a branch → `main` / root**.
+3. The site will be at `https://arazampour.github.io/my-web-page/`.
 4. Optional: add a custom domain such as `yourname.com` in Pages settings, then put that domain in a `CNAME` file in this folder.
 
 No build step. GitHub Pages can serve these files as they are.
-
-## Why this format
-
-Economics job-market advice (including ASHEcon) favors a clean one-pager over a busy lab theme. Hiring committees want, in order: name, contact, research interests, JMP, working papers, teaching, CV. Extra features (blogs, dark mode, animation) usually slow that down.
